@@ -11,7 +11,7 @@ const Movies = () => {
               <div className="movie--img">
                 <img
                   className=" mx-auto w-[250px]"
-                  src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
+                  src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                 />
               </div>
               <div className="movie--content px-4 text-white">
